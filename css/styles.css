@@ -1,0 +1,245 @@
+/*  
+    
+    @author Suhana
+
+    Cleaning code == Done
+    Organizing code == Done
+    Property Value arranged alphabetically == Done 
+
+*/
+
+/* Color pallete: #628395, #262A53, #FFA0A0, #FFE3E3 */
+
+/* Font family:  Poppins */
+
+
+
+
+    /*One for many*/
+    * {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .second-big-heading {
+        border-bottom: 5px solid #FFA0A0;
+        font-size: 3rem;
+        font-weight: bolder;
+        margin: 20px;
+        padding: 5px;
+    }
+
+    p {
+        color: #628396;
+        line-height: 2;
+    }
+
+
+
+
+    /*Home Page*/
+    #home {
+        background-image: url('../images/home.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #262a53;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: center;
+        padding: 10% 2%;
+    }
+
+    .big-heading {
+        font-weight: bold;
+        font-size: 5rem;
+        padding-left: 50px;
+        width: 20%;
+    }
+
+
+
+
+
+    /*About Page*/
+    #about {
+        align-items: center;
+        background-image: url('../images/about-contact.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #262a53;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10% 5%;
+    }
+
+    .my-img {
+        width: 100%;
+    }
+
+    .my-info {
+        align-items: center;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+
+
+
+    /*Skills Page*/
+    #skills {
+        align-items: center;
+        background: #FFA0A0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7% 8%;
+    }
+
+    #skills h1 {
+        border: none;
+        margin: 20px 0px;
+        padding: 5px 0px;
+    }
+
+    #skills p {
+        color: #fff;
+    }
+
+    .progresses {
+        background-color: #FFE3E3;
+        width: 100%;
+    }
+
+    .progress-bars {
+        background: #fff;
+    }
+
+    .p1 {
+        width: 85%;
+    }
+
+    .p2 {
+        width: 80%;
+    }
+
+    .p3 {
+        width: 75%;
+    }
+
+    .p4 {
+        width: 60%;
+    }
+
+    .p5 {
+        width: 60%;
+    }
+
+    .p6 {
+        width: 75%;
+    }
+
+
+
+
+
+    /*Contact Page*/
+    #contact {
+        align-items: center;
+        background-image: url('../images/about-contact.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #262a53;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7% 8%;
+        text-align: center;
+    }
+
+    .input-field, .textarea-field {
+        border: 2px solid #262a53;
+        margin: 8px 0px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .button {
+        background: #fff;
+        border: 2px solid #262a53;
+        border-radius: 2px;
+        color: #262a53;
+        padding: 5px 0px;
+        transition: .5s;
+        width: 100%;
+    }
+
+    .button:hover {
+        background: #262a53;
+        color: #fff;
+    }
+
+    #contact p {
+        width: 600px;
+    }
+
+
+
+
+
+    /*Footer*/
+    #footer {
+        background: #262A53;
+        padding: 2% 15%;
+        text-align: center;
+    }
+
+    .social-icons {
+        color: #fff;
+        margin: 15px 10px;
+    }
+
+    .social-icons:hover {
+      cursor: pointer;
+    }
+
+
+
+
+
+
+    /*Responsive*/
+    @media (max-width: 763px) {
+        #home {
+            background-image: url('../images/home-responsive.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 20% 3%;
+        }
+
+        .big-heading {
+            width: 80%;
+        }
+
+        #contact p {
+            text-align: left;
+            width: 100%;
+        }
+
+        #skills p {
+            width: 100%;
+        }
+
+        #skills h1 {
+            text-align: center;
+        }
+
+    }
